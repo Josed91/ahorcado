@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <title>Ahorcado</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="imagenes/Logo.png" alt="Logo de alura">
+    </header>
+    <main class="menu-principal" id="menu-principal">
+        <div class="boton-inicio">
+            <button class="iniciar" id="iniciar" onclick="iniciarJuego()">Iniciar juego</button>
+            <button class="agregar" onclick="palabra()">Agregar nueva palabra</button>
+        </div>
+    </main>
+    <main class="menu-palabra" id="menu-palabra">
+        <form>
+            <input type="text" id="ingreso" placeholder="Ingrese una palabra">
+        </form>
+        <p class="informacion">Máx. de 8 letras y solamente mayusculas</p>
+        <div class="botones-palabras">
+            <button class="guardar" onclick="guardarpalabra()">Guardar y empezar</button>
+            <button class="volver" onclick="desistir()">Cancelar</button>
+
+        </div>
+    </main>
+    <main id="menu-juego">
+        <img src="" id="dibujo">
+        <div class="carteles" id="carteles">
+            <div id="gano">
+                <p>GANASTE</p>
+            </div>
+            <div id="perdio">
+                <p>PERDISTE</p>
+            </div>
+            <div id="solucion">
+                <p>LA PALABRA ERA:<p id="palabracorrecta"></p></p>
+            </div>
+        </div>
+        <div class="letras">
+            <canvas id="lineas" width="700px" height="98px"></canvas>
+            <input type="text" id="letras-incorrectas" readonly>
+        </div>
+        <div class="boton-juego">
+            <button class="nuevo" onclick="iniciarJuego()">Nuevo juego</button>
+            <button class="rendirse" onclick="desistir()">Desistir</button>
+        </div>
+    </main>
+    <script  src="script.js"></script>
+</body>
+</html>
+s

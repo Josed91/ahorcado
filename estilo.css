@@ -1,0 +1,137 @@
+
+/*font-family: 'Creepster', cursive;*/
+body{
+	background: #E5E5E5;
+}
+header{
+	background: #fffbd4;
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	top: 0px;
+	padding: 15px;
+}
+.iniciar{
+	position: absolute;
+	width: 317px;
+	height: 84px;
+	left: 511px;
+	top: 252px;
+	padding: 18px;
+	background: #0A3871;
+	border-radius: 24px;
+	color: white;
+}
+.agregar{
+	border-radius: 15px;
+	position: absolute;
+	left: 513px;
+	top: 390px;
+	width: 310px;
+	padding: 20px;
+	
+}
+
+.menu-palabra{
+	display: none;
+}
+
+#ingreso{
+	position: absolute;
+	background: #E5E5E5;
+	font-size: 32px;
+	top: 170px;
+	left: 60px;
+	width: 299px;
+	height: 48px;
+	font-style: ;: Regular;
+	color: #0A3871;
+	border: none;
+
+}
+.informacion{
+	position: absolute;
+	top: 500px;
+	left: 60px;
+}
+
+.botones-palabras{
+	position: absolute;
+	top: 540px;
+	left: 60px;
+
+}
+
+.guardar{
+	width: 336px;
+	border-radius: 24px;
+	height: 67px;
+	color: white;
+	background: #0A3871;
+	font-size: 22px;
+}
+.volver{
+	position: absolute;
+	width: 336px;
+	border-radius: 24px;
+	height: 67px;
+	color: #0A3871;
+	font-size: 22px;
+	left: 400px;
+}
+#menu-juego{
+	display: none;
+}
+#dibujo{
+	position: absolute;
+	left: 450px;
+	top: 90px;
+}
+#lineas{
+	position: absolute;
+	left: 230px;
+	text-align: center;
+	top: 500px;
+}
+.carteles{
+	text-align: center;
+	color: #0A3871;
+	font-size: 12px;
+	position: absolute;
+	top: 600px;
+	left: 580px;
+}
+#letras-incorrectas{
+	position: absolute;
+	text-align: center;
+	height: 35px;
+	font-size: 25px;
+	width: 650px;
+	border: none;
+	background: #E5E5E5;
+	top: 700px;
+	left: 380px;
+}
+.boton-juego{
+	position: absolute;
+	left: 340px;
+	top: 760px;
+	
+}	
+.nuevo{
+	width: 336px;
+	border-radius: 24px;
+	height: 67px;
+	color: white;
+	background: #0A3871;
+	font-size: 22px;
+}
+.rendirse{
+	position: absolute;
+	width: 336px;
+	border-radius: 24px;
+	height: 67px;
+	color: #0A3871;
+	font-size: 22px;
+	left: 400px;
+}
